@@ -8,9 +8,10 @@ export const ContainerSkills = styled.div`
   justify-content: center;
   align-items: center;
   margin-top: 160px;
+
   .title {
     font-size: 2rem;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     border-bottom: 3px solid ${(props) => props.theme.blue};
   }
 
@@ -22,5 +23,25 @@ export const ContainerSkills = styled.div`
     justify-content: center;
     align-items: center;
     padding: 30px;
+  }
+
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  svg {
+    animation: fadeInOut 2s linear infinite;
+  }
+
+  p {
+    margin: 10px 0 30px 0;
   }
 `

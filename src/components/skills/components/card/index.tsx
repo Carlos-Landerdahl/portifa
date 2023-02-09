@@ -10,11 +10,14 @@ interface PropsCard {
 export function CardSkills({ title, url, subtitle }: PropsCard) {
   return (
     <ContainerCards>
+      <div className="touch"></div>
       <Card backgroundImg={url}>
         <ContentCard className="visible">
           <Title>{title}</Title>
           <p>{subtitle}</p>
-          <button>Ver projeto</button>
+          <button>
+            <a href="https://github.com/Carlos-Landerdahl">Ver projeto</a>
+          </button>
         </ContentCard>
       </Card>
     </ContainerCards>
