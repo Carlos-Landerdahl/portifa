@@ -4,34 +4,66 @@ import { ContainerSkills } from './styles'
 import reactLogo from '../../images/react-logo.png'
 import mysqlLogo from '../../images/mysql-logo.png'
 import htmlLogo from '../../images/html-logo.png'
+import jsLogo from '../../images/js-logo.png'
+import tsLogo from '../../images/ts-logo.png'
+import cssLogo from '../../images/css-logo.png'
+import gitLogo from '../../images/git-logo.png'
 import { MdTouchApp } from 'react-icons/md'
 
 export function Skills() {
   return (
     <ContainerSkills>
       <Title className="title">Hard Skills</Title>
+      <p>Clique ou toque no card para visualizar</p>
       <MdTouchApp size={50} />
-      <p>Clique ou toque para visualizar</p>
       <div className="container">
         <CardSkills
           url={htmlLogo}
-          title={'Card'}
+          title={'HTML'}
           subtitle={
-            ' Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores reiciendis impedit qui, dolor eum labore illum voluptates molestiae est magni pariatur officiis veritatis accusantium minima, rem culpa alias aperiam officia.'
+            ' Altamente experiente em criar esqueletos semânticos, acessíveis e bem estruturados.'
+          }
+        />
+        <CardSkills
+          url={cssLogo}
+          title={'CSS'}
+          subtitle={
+            'Conhecimento avançado em estilização, utilizando principalmente bibliotecas e pré-processadores, como por exemplo: SCSS, Styled-components, Tailwind e CSS Modules.'
+          }
+        />
+        <CardSkills
+          url={tsLogo}
+          title={'TypeScript'}
+          subtitle={
+            'Começei a usar faz poucos meses porém sou apaixonado por essa linguagem, conhecimento em tipagens, manipulações e muito mais.'
+          }
+        />
+        <CardSkills
+          url={jsLogo}
+          title={'JavaScript'}
+          subtitle={
+            'Conhecimento em sólido em JS como: manipulação de arrays, tipos, funções, variáveis, manipulação DOM e muito mais.'
           }
         />
         <CardSkills
           url={mysqlLogo}
-          title={'sadawsd'}
+          title={'Mysql'}
           subtitle={
-            ' Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores reiciendis impedit qui, dolor eum labore illum voluptates molestiae est magni pariatur officiis veritatis accusantium minima, rem culpa alias aperiam officia.'
+            'Tenho experiência nivel júnior, realizando tarefas como DML, DDL e CRUD.'
           }
         />
         <CardSkills
           url={reactLogo}
-          title={'sadawsd'}
+          title={'React.js'}
           subtitle={
-            ' Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores reiciendis impedit qui, dolor eum labore illum voluptates molestiae est magni pariatur officiis veritatis accusantium minima, rem culpa alias aperiam officia.'
+            'Hoje minha ferramenta favorita para criar meus sites e desenvolver web pages, um boa e sólida experiência vale resaltar.'
+          }
+        />
+        <CardSkills
+          url={gitLogo}
+          title={'Git'}
+          subtitle={
+            'Experiência vasta utilizando e versiando códigos através do Git/GitHub.'
           }
         />
       </div>

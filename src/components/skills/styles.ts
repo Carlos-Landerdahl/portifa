@@ -19,6 +19,7 @@ export const ContainerSkills = styled.div`
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
+    max-width: 1100px;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -39,9 +40,10 @@ export const ContainerSkills = styled.div`
 
   svg {
     animation: fadeInOut 2s linear infinite;
+    margin-bottom: 20px;
   }
 
   p {
-    margin: 10px 0 30px 0;
+    margin: 5px 0 10px 0;
   }
 `
