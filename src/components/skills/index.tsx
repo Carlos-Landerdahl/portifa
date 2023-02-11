@@ -42,7 +42,7 @@ export function Skills() {
           url={jsLogo}
           title={'JavaScript'}
           subtitle={
-            'Conhecimento em sólido em JS como: manipulação de arrays, tipos, funções, variáveis, manipulação DOM e muito mais.'
+            'Conhecimento sólido em JS como: manipulação de arrays, tipos, funções, variáveis, manipulação DOM e muito mais.'
           }
         />
         <CardSkills

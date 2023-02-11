@@ -10,7 +10,7 @@ export const ContainerSkills = styled.div`
   margin-top: 160px;
 
   .title {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 20px;
     border-bottom: 3px solid ${(props) => props.theme.blue};
   }
