@@ -1,11 +1,14 @@
 import { Title } from '../../styles/global'
 import { ContainerProjects } from './styles'
 import { Carousel } from './components/Carousel'
+import { MdTouchApp } from 'react-icons/md'
 
 export function Projects() {
   return (
     <ContainerProjects>
-      <Title className="title">Projetos</Title>
+      <Title className="title">Meus projetos</Title>
+      <p>Clique ou toque no card para visualizar a descrição</p>
+      <MdTouchApp size={50} />
       <Carousel />
     </ContainerProjects>
   )

@@ -18,6 +18,8 @@ export const ContainerNavLink = styled.div`
     p {
       position: absolute;
       top: 60px;
+      margin: 0 auto;
+      padding: 5px 20px;
     }
   }
 
@@ -58,7 +60,8 @@ export const ContainerNavLink = styled.div`
 
   &:hover {
     img {
-      opacity: 0.2;
+      opacity: 0.1;
+      filter: blur(5px);
     }
     .contentHover {
       opacity: 1;
