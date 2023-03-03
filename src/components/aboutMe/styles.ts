@@ -5,30 +5,26 @@ export const ContainerDiv = styled.main`
   align-items: center;
   width: 100%;
   height: 100%;
-  background-color: ${(props) => props.theme['base-border']};
-  margin-top: 160px;
-  padding: 50px 0;
-  box-shadow: 1px 0px 25px 1px rgba(28, 47, 65, 0.5);
-  -webkit-box-shadow: 1px 0px 25px 1px rgba(28, 47, 65, 0.5);
-  -moz-box-shadow: 1px 0px 25px 1px rgba(28, 47, 65, 0.5);
+  margin-top: 60px;
 `
 
 export const ContainerAboutMe = styled.div`
   width: 100%;
-  max-width: 600px;
+  max-width: 700px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 10px;
 
-  margin: 30px auto;
-  padding: 20px;
+  margin: 0 auto;
+  padding: 0 20px;
 
   .title {
     font-size: 3rem;
     margin-bottom: 20px;
-    border-bottom: 3px solid ${(props) => props.theme.blue};
+    color: ${(props) => props.theme.white};
+    border-bottom: 1px solid ${(props) => props.theme['base-span']};
   }
 
   .subtitle {
@@ -36,13 +32,25 @@ export const ContainerAboutMe = styled.div`
     opacity: 0.7;
 
     a {
+      font-size: 1.2rem;
       text-decoration: none;
-      color: ${(props) => props.theme.blue};
-      opacity: 1;
+      color: ${(props) => props.theme['base-span']};
+      position: relative;
+      display: inline-block;
 
-      :hover {
-        margin-bottom: 10px;
-        border-bottom: 1px solid ${(props) => props.theme.blue};
+      ::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: ${(props) => props.theme['base-span']};
+        transition: width 0.3s ease-in-out;
+      }
+
+      :hover::after {
+        width: 100%;
       }
     }
   }

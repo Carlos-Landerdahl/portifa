@@ -5,13 +5,17 @@ export const ContainerProjects = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 190px;
-  margin-bottom: 190px;
+  margin-top: 60px;
+
+  p {
+    padding: 0 20px;
+  }
 
   .title {
     font-size: 3rem;
     margin-bottom: 20px;
-    border-bottom: 3px solid ${(props) => props.theme.blue};
+    border-bottom: 1px solid ${(props) => props.theme['base-span']};
+    color: ${(props) => props.theme.white};
   }
 
   .CardContainer {
@@ -35,6 +39,6 @@ export const ContainerProjects = styled.div`
 
   svg {
     animation: fadeInOut 2s linear infinite;
-    margin-bottom: 60px;
+    margin-bottom: 25px;
   }
 `

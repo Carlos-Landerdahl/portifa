@@ -7,7 +7,7 @@ export function Projects() {
   return (
     <ContainerProjects>
       <Title className="title">Meus projetos</Title>
-      <p>Clique ou toque no card para visualizar a descrição</p>
+      <p>Clique ou arraste para o lado para interagir</p>
       <MdTouchApp size={50} />
       <Carousel />
     </ContainerProjects>

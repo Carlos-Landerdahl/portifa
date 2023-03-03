@@ -49,13 +49,16 @@ export const Content = styled.div`
     color: ${(props) => props.theme['base-span']};
     font-size: 1.2rem;
     line-height: 1.75rem;
-    margin-bottom: 6px;
+    margin-bottom: 26px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
   }
 
   .title {
     padding: 3px 0;
     font-size: 3rem;
     line-height: 1.75rem;
+    margin-bottom: 10px;
     @media (max-width: 768px) {
       font-size: 2.3rem;
     }
@@ -71,8 +74,8 @@ export const Content = styled.div`
   }
 
   .description {
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-weight: 300;
     font-size: 1.1rem;
     opacity: 0.7;
@@ -101,7 +104,8 @@ export const NavLink = styled.section`
 
     padding: 8px 20px;
     background-color: transparent;
-    border: 2px solid ${(props) => props.theme['base-subtitle']};
+    border: 1px solid ${(props) => props.theme['base-span']};
+    border-radius: 4px;
     outline: none;
 
     font-weight: bold;

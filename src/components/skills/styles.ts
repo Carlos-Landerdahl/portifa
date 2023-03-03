@@ -7,12 +7,13 @@ export const ContainerSkills = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 160px;
+  margin-top: 60px;
 
   .title {
     font-size: 3rem;
     margin-bottom: 20px;
-    border-bottom: 3px solid ${(props) => props.theme.blue};
+    border-bottom: 1px solid ${(props) => props.theme['base-span']};
+    color: ${(props) => props.theme.white};
   }
 
   .container {
@@ -40,7 +41,7 @@ export const ContainerSkills = styled.div`
 
   svg {
     animation: fadeInOut 2s linear infinite;
-    margin-bottom: 20px;
+    margin-left: 5px;
   }
 
   p {

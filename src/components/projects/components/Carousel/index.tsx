@@ -17,7 +17,7 @@ export function Carousel() {
   return (
     <>
       <Swiper
-        slidesPerView={1}
+        slidesPerView={'auto'}
         spaceBetween={30}
         loop={true}
         pagination={{

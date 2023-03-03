@@ -8,14 +8,12 @@ import jsLogo from '../../images/js-logo.png'
 import tsLogo from '../../images/ts-logo.png'
 import cssLogo from '../../images/css-logo.png'
 import gitLogo from '../../images/git-logo.png'
-import { MdTouchApp } from 'react-icons/md'
 
 export function Skills() {
   return (
     <ContainerSkills>
       <Title className="title">Habilidades</Title>
-      <p>Clique ou toque no card para visualizar a descrição</p>
-      <MdTouchApp size={50} />
+
       <div className="container">
         <CardSkills
           url={htmlLogo}

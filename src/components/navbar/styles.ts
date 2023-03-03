@@ -1,15 +1,18 @@
 import styled from 'styled-components'
 
 export const Nav = styled.nav`
+  position: fixed;
+  top: 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 80px;
+  z-index: 1;
 
-  padding: 1.5rem 2rem;
-  background-color: transparent;
+  padding: 1.5rem 20px;
+  background-color: ${(props) => props.theme['base-background']};
   color: ${(props) => props.theme['base-text']};
-
-  position: sticky;
 
   svg {
     display: none;
@@ -22,15 +25,26 @@ export const Nav = styled.nav`
     gap: 2rem;
 
     a {
+      font-size: 1.2rem;
       text-decoration: none;
-      cursor: pointer;
       color: ${(props) => props.theme['base-text']};
-      font-size: 1.1rem;
-      transition: all ease-in-out 0.1s;
+      position: relative;
+      display: inline-block;
+      padding-bottom: 5px;
 
-      :hover {
-        transform: scale(105%);
-        color: rgba(255, 255, 255, 0.6);
+      ::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: ${(props) => props.theme['base-span']};
+        transition: width 0.3s ease-in-out;
+      }
+
+      :hover::after {
+        width: 100%;
       }
     }
   }

@@ -1,4 +1,3 @@
-import Character3D from '../../images/Carlos3D.png'
 import { Subtitle, Title } from '../../styles/global'
 import { Content, ContentContainer, NavLink } from './styles'
 import { AiOutlineCloudDownload, AiOutlineDoubleRight } from 'react-icons/ai'
@@ -6,7 +5,7 @@ import { AiOutlineCloudDownload, AiOutlineDoubleRight } from 'react-icons/ai'
 export function ContentHome() {
   return (
     <ContentContainer>
-      <img src={Character3D} alt="" />
+      {/* <img src={Character3D} alt="" /> */}
       <Content>
         <p>Olá, meu nome é</p>
         <Title className="title">Carlos Landerdahl</Title>
