@@ -85,8 +85,8 @@ export function Carousel() {
               <p className="descriptionCardProjects">
                 Projeto feito no Ignite - Rocketseat, fizemos um sistema de
                 controle de gastos onde podemos colocar entradas e saídas de
-                dinheiro, projeto feito utilizando styled-components,
-                typescript, vite e deploy feito na vercel.
+                capital, projeto feito utilizando styled-components, typescript,
+                vite e deploy feito na vercel.
               </p>
               <p className="descriptionCard">
                 Typescript + styled-components + react.js
@@ -123,9 +123,9 @@ export function Carousel() {
               <h1 className="titleCardProjects">Ignite - Feed</h1>
               <p className="descriptionCardProjects">
                 Projeto feito no Ignite - Rocketseat, fizemos uma interface
-                estilo twitter onde você pode fazer seus comentários e apaga-los
-                também, projeto feito utilizando styled-components, typescript,
-                vite e deploy feito na vercel.
+                estilo twitter, onde você pode fazer seus comentários e
+                apagá-los também, projeto feito utilizando styled-components,
+                typescript, vite e deploy feito na vercel.
               </p>
               <p className="descriptionCard">
                 Typescript + styled-components + react.js
@@ -162,7 +162,7 @@ export function Carousel() {
               <h1 className="titleCardProjects">B7WEB - Calc IMC</h1>
               <p className="descriptionCardProjects">
                 Projeto feito na B7WEB, fizemos uma interface para calcular o
-                IMC do usuário e dizer como esta o seu estado, tudo isso
+                IMC do usuário e dizer como está o seu estado, tudo isso
                 utilizando CSS.modules, typescript, CRA e deploy feito na
                 vercel.
               </p>
@@ -201,8 +201,8 @@ export function Carousel() {
               <h1 className="titleCardProjects">BD - Em conjunto</h1>
               <p className="descriptionCardProjects">
                 Projeto feito dentro Digital House, para colocar todos os
-                conhecimentos de MYSQL em prática, fizemos DDL, DML e por final
-                um CRUD, fizemos isso usando como exemplo app de gestão de
+                conhecimentos de MYSQL em prática, fizemos DDL, DML e por fim um
+                CRUD, tudo isso usando como exemplo app de gestão de
                 condomínios.
               </p>
               <p className="descriptionCard">MySQL + JS</p>
@@ -238,8 +238,8 @@ export function Carousel() {
               <h1 className="titleCardProjects">B7WEB - Pizzaria</h1>
               <p className="descriptionCardProjects">
                 Projeto feito na B7WEB, criação de uma interface para realizar
-                pedido de pizzas, fizemos um sistema de carrinho completo usando
-                utilizando CSS, javascript e deploy feito na vercel.
+                pedido de pizzas, fizemos um sistema de carrinho completo
+                utilizando CSS, Typescript e deploy feito na vercel.
               </p>
               <p className="descriptionCard">
                 Typescript + styled-components + react.js
@@ -276,8 +276,7 @@ export function Carousel() {
               <h1 className="titleCardProjects">Todo - App</h1>
               <p className="descriptionCardProjects">
                 Projeto feito no Ignite - Rocketseat, fizemos uma aplicação para
-                a criação de tasks rápidas do dia a dia e com funções
-                complestas.
+                a criação de tasks rápidas do dia a dia e com funções completas.
               </p>
               <p className="descriptionCard">
                 Typescript + styled-components + react.js + vercel

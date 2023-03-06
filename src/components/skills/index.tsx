@@ -25,14 +25,14 @@ export function Skills() {
           url={tsLogo}
           title={'TypeScript'}
           subtitle={
-            'Começei a usar faz poucos meses porém sou apaixonado por essa linguagem, conhecimento em tipagens, manipulações e muito mais.'
+            'Comecei a usar faz poucos meses, porém sou apaixonado por essa linguagem, conhecimento em tipagens, manipulações e muito mais.'
           }
         />
         <CardSkills
           url={reactLogo}
           title={'React.js'}
           subtitle={
-            'Hoje minha ferramenta favorita para criar meus sites e desenvolver web pages, um boa e sólida experiência vale resaltar.'
+            'Hoje minha ferramenta favorita para criar meus sites e desenvolver web pages, uma boa e sólida experiência vale ressaltar.'
           }
         />
         <CardSkills
@@ -53,14 +53,14 @@ export function Skills() {
           url={mysqlLogo}
           title={'Mysql'}
           subtitle={
-            'Tenho experiência nivel júnior, realizando tarefas como DML, DDL e CRUD.'
+            'Tenho experiência nível júnior, realizando tarefas como DML, DDL, CRUD e Criação de views'
           }
         />
         <CardSkills
           url={gitLogo}
           title={'Git'}
           subtitle={
-            'Experiência vasta utilizando e versiando códigos através do Git/GitHub.'
+            'Experiência elevada utilizando e versionando códigos através do Git/GitHub.'
           }
         />
       </div>

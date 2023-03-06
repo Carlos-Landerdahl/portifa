@@ -26,7 +26,7 @@ export function AboutMe() {
             Certified Tech Developer
           </a>{' '}
           oferecido pela Digital House em conjunto com a Globant e Mercado
-          livre. Estou na área de programação a 1 ano, onde o meu foco é
+          livre. Estou na área de programação há 1 ano, onde o meu foco é
           Front-end, já trabalhei com renderizações 3D e sou apaixonado pela
           área da tecnologia e design. Possuo experiência como desenvolvedor
           Front-end, atuando na criação de site usando React.js com

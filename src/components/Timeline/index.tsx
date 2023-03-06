@@ -18,7 +18,7 @@ export function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#112240', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #112240' }}
-            date="set de 2021 - jan de 2022 · 5 meses"
+            date="jan de 2023 - o momento · 3 meses"
             iconStyle={{ background: '#112240', color: 'white' }}
             icon={<MdWorkOutline />}
           >
@@ -31,7 +31,7 @@ export function Timeline() {
             <p>
               Estou atuando como desenvolvedor freelancer, desenvolvendo sites
               pessoais e também atuando na comunidade WEB 3.0, especificamente
-              no ecosistema Solana como suporte.
+              no ecossistema Solana como suporte.
             </p>
             <p className="spanDesc">
               Competências: React · Software de produtividade Notion ·
@@ -42,7 +42,7 @@ export function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#112240', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #112240' }}
-            date="set de 2021 - jan de 2022 · 5 meses"
+            date="jan de 2022 - dez de 2022 · 1 ano"
             iconStyle={{ background: '#112240', color: 'white' }}
             icon={<MdWorkOutline />}
           >
