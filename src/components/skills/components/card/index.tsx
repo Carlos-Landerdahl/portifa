@@ -10,7 +10,6 @@ interface PropsCard {
 export function CardSkills({ title, url, subtitle }: PropsCard) {
   return (
     <ContainerCards>
-      <div className="touch"></div>
       <Card backgroundImg={url}>
         <ContentCard className="visible">
           <Title className="titleCard-skills">{title}</Title>

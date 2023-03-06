@@ -28,9 +28,8 @@ export const Card = styled.div<PropsCard>`
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  border-radius: 4px;
-
-  border: 2px solid ${(props) => props.theme['base-span']};
+  border: 1px solid transparent;
+  cursor: pointer;
 `
 export const ContentCard = styled.div`
   display: flex;
@@ -39,20 +38,15 @@ export const ContentCard = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 8px;
 
   padding: 10px;
   text-align: center;
 
-  opacity: 0;
-  transition: all 0.2s;
+  backdrop-filter: blur(3px);
+  background-color: rgba(28, 47, 65, 0.8);
 
   .titleCard-skills {
     color: ${(props) => props.theme.white};
-  }
-
-  :hover {
-    opacity: 1;
-    backdrop-filter: blur(3px);
-    background-color: rgba(28, 47, 65, 0.8);
   }
 `

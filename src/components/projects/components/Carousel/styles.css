@@ -11,6 +11,14 @@
   margin-top: 20px;
 }
 
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  background-color: #63fdd9;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+  color:#ffffffca;
+}
+
 .containerCarousel {
   display: flex;
   justify-content: center;
