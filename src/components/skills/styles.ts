@@ -12,8 +12,8 @@ export const ContainerSkills = styled.div`
   .title {
     font-size: 3rem;
     margin-bottom: 20px;
-    border-bottom: 1px solid ${(props) => props.theme['base-span']};
     color: ${(props) => props.theme.white};
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   }
 
   .container {

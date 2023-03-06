@@ -6,12 +6,16 @@ import {
   SiTailwindcss,
   SiGithubactions,
 } from 'react-icons/si'
+import imgAboutMe from '../../images/about-me.svg'
 
 export function AboutMe() {
   return (
     <ContainerDiv>
       <ContainerAboutMe>
         <Title className="title">Sobre mim</Title>
+        <section>
+          <img src={imgAboutMe} alt="" />
+        </section>
         <Subtitle className="subtitle">
           Cursando o{' '}
           <a

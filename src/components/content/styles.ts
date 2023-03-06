@@ -7,7 +7,7 @@ export const ContentContainer = styled.section`
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
-  margin-top: 60px;
+  margin-top: 90px;
   padding: 20px;
 
   img {

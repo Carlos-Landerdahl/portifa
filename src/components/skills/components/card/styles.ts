@@ -17,28 +17,20 @@ export const ContainerCards = styled.div`
     justify-content: center;
     align-items: center;
   }
-
-  .touch {
-    position: absolute;
-    svg {
-      opacity: 0.6;
-      color: ${(props) => props.theme['base-border']};
-    }
-  }
 `
 
 export const Card = styled.div<PropsCard>`
   width: 300px;
-  height: 400px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   background-image: url(${(props) => props.backgroundImg});
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  border-radius: 4px;
 
-  border: 2px solid ${(props) => props.theme.blue};
-  border-radius: 3px;
+  border: 2px solid ${(props) => props.theme['base-span']};
 `
 export const ContentCard = styled.div`
   display: flex;
@@ -54,25 +46,8 @@ export const ContentCard = styled.div`
   opacity: 0;
   transition: all 0.2s;
 
-  button {
-    font-size: 1.2rem;
-    padding: 10px 30px;
-    border-radius: 8px;
-    border: 1px solid ${(props) => props.theme.blue};
-    font-weight: 400;
-    cursor: pointer;
-    margin-top: 20px;
-    background-color: transparent;
-
-    a {
-      text-decoration: none;
-      color: ${(props) => props.theme['base-text']};
-    }
-
-    :hover {
-      transition: 0.3s;
-      background-color: ${(props) => props.theme.blue};
-    }
+  .titleCard-skills {
+    color: ${(props) => props.theme.white};
   }
 
   :hover {

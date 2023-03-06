@@ -9,6 +9,7 @@ export const defaultTheme = {
   'base-label': '#3A536B',
   'base-border': '#1C2F41',
   'base-post': '#112131',
+  'base-card': '#112240',
 
   'base-profile': '#0B1B2B',
   'base-background': '#0a192f',

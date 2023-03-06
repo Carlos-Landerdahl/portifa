@@ -14,7 +14,7 @@ export const ContainerProjects = styled.div`
   .title {
     font-size: 3rem;
     margin-bottom: 20px;
-    border-bottom: 1px solid ${(props) => props.theme['base-span']};
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     color: ${(props) => props.theme.white};
   }
 
@@ -37,7 +37,7 @@ export const ContainerProjects = styled.div`
     }
   }
 
-  svg {
+  > svg {
     animation: fadeInOut 2s linear infinite;
     margin-bottom: 25px;
   }

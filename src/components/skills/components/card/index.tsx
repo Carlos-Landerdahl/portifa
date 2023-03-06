@@ -13,11 +13,8 @@ export function CardSkills({ title, url, subtitle }: PropsCard) {
       <div className="touch"></div>
       <Card backgroundImg={url}>
         <ContentCard className="visible">
-          <Title>{title}</Title>
+          <Title className="titleCard-skills">{title}</Title>
           <p>{subtitle}</p>
-          <button>
-            <a href="https://github.com/Carlos-Landerdahl">Ver projetos</a>
-          </button>
         </ContentCard>
       </Card>
     </ContainerCards>

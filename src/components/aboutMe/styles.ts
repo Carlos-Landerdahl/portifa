@@ -20,11 +20,32 @@ export const ContainerAboutMe = styled.div`
   margin: 0 auto;
   padding: 0 20px;
 
+  section {
+    max-width: 700px;
+    width: 100%;
+
+    @keyframes Animation-rotate {
+      0% {
+        transform: translateX(0) rotate(0);
+      }
+      50% {
+        transform: translateX(2px) rotate(2deg);
+      }
+      100% {
+        transform: translateX(0) rotate(0);
+      }
+    }
+
+    img {
+      animation: Animation-rotate 2s ease-in-out infinite;
+    }
+  }
+
   .title {
     font-size: 3rem;
     margin-bottom: 20px;
     color: ${(props) => props.theme.white};
-    border-bottom: 1px solid ${(props) => props.theme['base-span']};
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   }
 
   .subtitle {
@@ -59,6 +80,8 @@ export const ContainerAboutMe = styled.div`
 export const NavlinkAboutMe = styled.section`
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
   gap: 20px;
 
   margin-top: 10px;

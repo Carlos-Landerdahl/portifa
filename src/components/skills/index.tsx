@@ -13,8 +13,28 @@ export function Skills() {
   return (
     <ContainerSkills>
       <Title className="title">Habilidades</Title>
-
       <div className="container">
+        <CardSkills
+          url={jsLogo}
+          title={'JavaScript'}
+          subtitle={
+            'Conhecimento sólido em JS como: manipulação de arrays, tipos, funções, variáveis, manipulação DOM e muito mais.'
+          }
+        />
+        <CardSkills
+          url={tsLogo}
+          title={'TypeScript'}
+          subtitle={
+            'Começei a usar faz poucos meses porém sou apaixonado por essa linguagem, conhecimento em tipagens, manipulações e muito mais.'
+          }
+        />
+        <CardSkills
+          url={reactLogo}
+          title={'React.js'}
+          subtitle={
+            'Hoje minha ferramenta favorita para criar meus sites e desenvolver web pages, um boa e sólida experiência vale resaltar.'
+          }
+        />
         <CardSkills
           url={htmlLogo}
           title={'HTML'}
@@ -30,31 +50,10 @@ export function Skills() {
           }
         />
         <CardSkills
-          url={tsLogo}
-          title={'TypeScript'}
-          subtitle={
-            'Começei a usar faz poucos meses porém sou apaixonado por essa linguagem, conhecimento em tipagens, manipulações e muito mais.'
-          }
-        />
-        <CardSkills
-          url={jsLogo}
-          title={'JavaScript'}
-          subtitle={
-            'Conhecimento sólido em JS como: manipulação de arrays, tipos, funções, variáveis, manipulação DOM e muito mais.'
-          }
-        />
-        <CardSkills
           url={mysqlLogo}
           title={'Mysql'}
           subtitle={
             'Tenho experiência nivel júnior, realizando tarefas como DML, DDL e CRUD.'
-          }
-        />
-        <CardSkills
-          url={reactLogo}
-          title={'React.js'}
-          subtitle={
-            'Hoje minha ferramenta favorita para criar meus sites e desenvolver web pages, um boa e sólida experiência vale resaltar.'
           }
         />
         <CardSkills

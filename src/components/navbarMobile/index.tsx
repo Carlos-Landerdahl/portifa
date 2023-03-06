@@ -25,8 +25,10 @@ export function MenuMobile({
       <nav>
         <a href="#">Home</a>
         <a href="#">Sobre</a>
-        <a href="#">Contato</a>
+        <a href="#">Habilidades</a>
         <a href="#">Projetos</a>
+        <a href="#">Carreira</a>
+        <a href="#">Contato</a>
       </nav>
     </Container>
   )

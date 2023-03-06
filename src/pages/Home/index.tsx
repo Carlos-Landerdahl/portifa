@@ -5,6 +5,7 @@ import { Navbar } from '../../components/navbar'
 import { MenuMobile } from '../../components/navbarMobile'
 import { Projects } from '../../components/projects'
 import { Skills } from '../../components/skills'
+import { Timeline } from '../../components/Timeline'
 import { HomeContainer } from './styles'
 
 export function Homepage() {
@@ -22,6 +23,7 @@ export function Homepage() {
         <AboutMe />
         <Skills />
         <Projects />
+        <Timeline />
       </HomeContainer>
     </>
   )
