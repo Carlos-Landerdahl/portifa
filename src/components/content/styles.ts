@@ -6,13 +6,15 @@ export const ContentContainer = styled.section`
   gap: 2rem;
   align-items: center;
   flex-wrap: wrap;
+
   width: 100%;
   margin-top: 90px;
   padding: 20px;
 
   img {
-    max-width: 400px;
     width: 100%;
+    max-width: 400px;
+
     border-radius: 50%;
     background-color: ${(props) => props.theme['base-profile']};
     box-shadow: 0px 0px 0px 5px rgba(27, 124, 146, 0.63);
@@ -25,11 +27,14 @@ export const ContentContainer = styled.section`
     width: 100%;
 
     opacity: 0.1;
+
     position: absolute;
     top: 700px;
     left: 50%;
+
     width: 200px;
     height: 200px;
+
     transform: translate(-50%, -50%);
   }
 `
@@ -48,17 +53,20 @@ export const Content = styled.div`
   p {
     color: ${(props) => props.theme['base-span']};
     font-size: 1.2rem;
-    line-height: 1.75rem;
-    margin-bottom: 26px;
     font-family: 'Roboto Mono', monospace;
     font-weight: 400;
+    line-height: 1.75rem;
+
+    margin-bottom: 16px;
   }
 
   .title {
-    padding: 3px 0;
     font-size: 3rem;
     line-height: 1.75rem;
+
+    padding: 3px 0;
     margin-bottom: 10px;
+
     @media (max-width: 768px) {
       font-size: 2.3rem;
     }
@@ -78,6 +86,7 @@ export const Content = styled.div`
     margin-bottom: 10px;
     font-weight: 300;
     font-size: 1.1rem;
+
     opacity: 0.7;
   }
 `
@@ -87,8 +96,9 @@ export const NavLink = styled.section`
   align-items: center;
   justify-content: flex-start;
   gap: 20px;
-  margin-top: 10px;
   flex-wrap: nowrap;
+
+  margin-top: 10px;
 
   a {
     text-decoration: none;
@@ -101,8 +111,8 @@ export const NavLink = styled.section`
     justify-content: center;
     align-items: center;
     gap: 8px;
-
     padding: 8px 20px;
+
     background-color: transparent;
     border: 1px solid ${(props) => props.theme['base-span']};
     border-radius: 4px;

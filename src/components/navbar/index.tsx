@@ -1,5 +1,6 @@
 import { Nav, Title } from './styles'
 import { BiMenuAltRight } from 'react-icons/bi'
+
 interface MenuMobileProps {
   setMenuIsVisible: (value: boolean) => void
 }

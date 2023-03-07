@@ -3,26 +3,29 @@ import styled from 'styled-components'
 export const ContainerDiv = styled.main`
   display: flex;
   align-items: center;
+
   width: 100%;
   height: 100%;
+
   margin-top: 60px;
 `
 
 export const ContainerAboutMe = styled.div`
-  width: 100%;
-  max-width: 700px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 10px;
 
+  width: 100%;
+  max-width: 700px;
+
   margin: 0 auto;
   padding: 0 20px;
 
   section {
-    max-width: 700px;
     width: 100%;
+    max-width: 700px;
 
     @keyframes Animation-rotate {
       0% {
@@ -43,8 +46,9 @@ export const ContainerAboutMe = styled.div`
 
   .title {
     font-size: 3rem;
-    margin-bottom: 20px;
     color: ${(props) => props.theme.white};
+
+    margin-bottom: 20px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   }
 
@@ -56,6 +60,7 @@ export const ContainerAboutMe = styled.div`
       font-size: 1.2rem;
       text-decoration: none;
       color: ${(props) => props.theme['base-span']};
+
       position: relative;
       display: inline-block;
 

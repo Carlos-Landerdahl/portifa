@@ -2,13 +2,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
   max-width: 400px;
   width: 100%;
   height: 400px;
+  margin-top: 20px;
+  
   background-color: #112240;
   border-radius: 5px;
   box-shadow: 0 10px 10px -30px rgba(2,12,27,0.9);
-  margin-top: 20px;
 }
 
 .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
@@ -23,8 +25,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding:25px 35px;
   flex-direction: column;
+  
+  padding:25px 35px;
 }
 
 .containerCarousel > section {
@@ -51,8 +54,10 @@ a > svg{
 
 .titleCardProjects {
   font-size: 1.7rem;
+
   padding:0 20px;
   margin-bottom: 10px;
+  
   opacity: .8;
 }
 

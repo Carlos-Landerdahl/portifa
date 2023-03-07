@@ -1,16 +1,19 @@
 import styled from 'styled-components'
 
 export const Nav = styled.nav`
-  position: fixed;
-  top: 0;
-  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 80px;
   z-index: 1;
 
+  position: fixed;
+  top: 0;
+
+  width: 100%;
+  height: 80px;
+
   padding: 1.5rem 20px;
+
   background-color: ${(props) => props.theme['base-background']};
   color: ${(props) => props.theme['base-text']};
 
@@ -25,19 +28,20 @@ export const Nav = styled.nav`
     gap: 2rem;
 
     a {
+      display: inline-block;
+      position: relative;
+      padding-bottom: 5px;
+
       font-size: 1.2rem;
       text-decoration: none;
       color: ${(props) => props.theme['base-text']};
-      position: relative;
-      display: inline-block;
-      padding-bottom: 5px;
 
       ::after {
         content: '';
+        width: 0;
         position: absolute;
         bottom: 0;
         left: 0;
-        width: 0;
         height: 2px;
         background-color: ${(props) => props.theme['base-span']};
         transition: width 0.3s ease-in-out;

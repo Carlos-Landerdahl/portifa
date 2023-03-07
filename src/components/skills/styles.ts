@@ -2,11 +2,12 @@ import styled from 'styled-components'
 
 export const ContainerSkills = styled.div`
   display: flex;
-  width: 100%;
-  height: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  width: 100%;
+  height: 100%;
   margin-top: 60px;
 
   .title {
@@ -18,12 +19,13 @@ export const ContainerSkills = styled.div`
 
   .container {
     display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
-    max-width: 1100px;
-    width: 100%;
     justify-content: center;
     align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+
+    max-width: 1100px;
+    width: 100%;
     padding: 30px;
   }
 

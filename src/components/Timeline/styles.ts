@@ -1,12 +1,13 @@
 import styled from 'styled-components'
 
 export const TimelineContainer = styled.div`
-  margin-top: 60px;
-  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  margin-top: 60px;
+  margin-bottom: 20px;
 
   .spanDesc {
     opacity: 0.6;
